@@ -1,0 +1,15 @@
+# Secrets and local configuration
+PeopleCounter/serviceAccountKey.json
+ESP32/src/config.h
+.env
+.env.*
+*.key
+*.pem
+
+# Generated build and editor files
+.pio/
+.vscode/
+.firebase/
+
+# Large model artifacts
+*.pt

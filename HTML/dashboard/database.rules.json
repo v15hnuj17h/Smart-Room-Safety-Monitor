@@ -1,0 +1,21 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+
+    "devices": {
+      "$deviceId": {
+        ".read": "auth != null",
+        ".write": "auth != null && auth.uid === '7Rb5jKMo6RVZSdzG2CNDHMNmDEU2'",
+        "history": {
+          ".indexOn": ["ts"]
+        }
+      }
+    },
+
+    "rooms": {
+      ".read": "auth != null",
+      ".write": false
+    }
+  }
+}
